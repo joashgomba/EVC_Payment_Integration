@@ -8,9 +8,9 @@ import json
 class WaafiPayIntegrationView(View):
     #below are the API access credentials
     base_url = "https://api.waafipay.com/asm"
-    merchant_uid = "M0913548"
-    api_user_id = "1007208"
-    api_key = "API-1047466045AHX"
+    merchant_uid = "MARCHANT_UID"
+    api_user_id = "API_USER_ID"
+    api_key = "API_PASSWORD"
 
 
     #This code assumes you have a Django project set up and a transaction_form.html template in your templates directory
